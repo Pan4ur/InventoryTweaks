@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "fastdrop",
+  "version": "1",
+  "name": "FastDrop",
+  "description": "Drop items faster",
+  "authors": [
+    {
+      "name": "pan4ur",
+      "contact": {
+        "discord": "pan4ur"
+      }
+    }
+  ],
+  "license": "GNU General Public License v3.0",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "fastdrop.FastDrop"
+    ]
+  },
+  "mixins": [
+    "fastdrop.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": ">=1.20.3",
+    "java": ">=17"
+  },
+  "suggests": {
+  }
+}
