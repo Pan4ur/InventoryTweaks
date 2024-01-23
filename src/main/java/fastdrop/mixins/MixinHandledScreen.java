@@ -59,6 +59,6 @@ public abstract class MixinHandledScreen<T extends ScreenHandler> extends Screen
     }
 
     private boolean attack() {
-        return true;
+        return FastDrop.hold_mouse0;
     }
 }
